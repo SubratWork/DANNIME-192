@@ -1,4 +1,4 @@
---UPDATE ORG TABLES                                                                    
+--UPDATE ORG TABLES (UAE GENERIC)                                                                    
 --------------------------------------------------------------------------------------------------------
 select * from FB_ENT_ORG_ORGANISATION_TBL  where OrganisationType='ClientOrg' order by UpdateDate desc
 select * from FB_ENT_ORG_ORGANISATION_TBL_HIST  where OrganisationType='ClientOrg' order by UpdateDate desc
