@@ -18,3 +18,6 @@ att.v_vinno
 frontinginsurer.ccic
 
 v_cc.errors.numeric.min.field
+att.v_usage
+p_policysolddate.errors.pdiff
+v_cc.errors.numeric.max.field
