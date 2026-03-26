@@ -25,3 +25,18 @@ v_cc.errors.numeric.max.field
 
 v_cc.errors.numeric.min.field
 att.c_dayphone
+att.c_reference1
+
+att.cs_lastname
+
+att.s_lastname
+
+att.s_reference
+
+
+ att.postzip
+
+att.d_claimnumber
+
+att.v_regno
+
