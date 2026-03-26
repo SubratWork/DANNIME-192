@@ -15,3 +15,6 @@ att.v_manuwarstartdate
 att.v_manuwarmonths
 
 att.v_vinno
+frontinginsurer.ccic
+
+v_cc.errors.numeric.min.field
