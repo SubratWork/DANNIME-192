@@ -248,3 +248,13 @@ select * from FB_ENT_SPOE_CHECK_TBL_HIST  where ClientName='UAE Generic'
 
 
 
+
+--check if in uat its there or not
+begin tran
+
+ALTER TABLE FB_POLICY_INSTANCE_PRODUCT_INFO_TBL
+ALTER COLUMN RateKey NVARCHAR(300);
+
+ALTER TABLE FB_POLICY_INSTANCE_PRODUCT_INFO_TBL_HIST
+ALTER COLUMN RateKey NVARCHAR(300);
+rollback
