@@ -74,3 +74,5 @@ claim.attachment.vehicle_registration_doc
 claim.attachment.anyother_relavant_info
 
  att.claimmileage
+errors.max.vehsolddate
+com.firstbase.framework.validation.validators.startdateerror
