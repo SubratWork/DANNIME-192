@@ -43,3 +43,34 @@ att.v_regno
 User Reference
 
 att.aggregateclaimlimit
+
+gap.att.fincomagreementno
+
+gap.att.fincomaddress
+
+gap.att.fincomcontact
+
+ gap.att.settlementamount
+gap.att.primaryinsureraddress1
+
+gap.att.primaryinsureraddress2
+
+gap.att.primaryinsureraddress3
+gap.att.primaryinsurerphoneno
+gap.att.primaryinsurercontactpersonphoneno
+
+gap.att.primaryinsurerpolicyno
+gap.att.primaryinsurerclaimno
+att.genericgapfinanceitems
+claim.questiondesc.how_was_the_vehicle_purchased_cash_loan_fl_rent
+claim.attachment.gap_insurance_certificate
+claim.attachment.claim_quessionare
+
+claim.attachment.police_report_claim_refernum
+
+claim.attachment.motor_insurance_settlement_form
+claim.attachment.vehicle_registration_doc
+
+claim.attachment.anyother_relavant_info
+
+ att.claimmileage
