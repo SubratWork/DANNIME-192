@@ -1,0 +1,13 @@
+Registration Date  //  First Registration Date
+Extended Warranty Sold Date // Policy Sold Date
+Manufacturers Warranty Start Date // 	Manufacturer Warranty Start Date
+Plan Cover Amount // Cover Amount
+	Start KM  // Start Mileage (KM)
+	Claim Limit (aggregate) //  Claim Limit Total in AED
+	Expiry KM // Policy Expiry Mileage
+    Policy Type // Product Type
+    Product Amount // Cover Amount
+    Policy Entry Year // Underwriting Year
+    
+    System Entry Date // Policy Entry Date
+    
