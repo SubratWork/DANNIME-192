@@ -16,3 +16,16 @@ Plan Cover Amount // Cover Amount
               
     User Reference // Insurance Reference
 Vehicle Purchase Price (USD) // Vehicle Cost
+User Reference // Insurance Reference
+Address 1 // Address Line 1   -- att.c_address1
+ 
+Address 2 //  Address Line 2   -- att.c_address2
+
+P O Box //  P.O.Box  ___######_____ att.c_postzip
+
+
+Contact Telephone //  Daytime Telephone ___######_____ att.c_dayphone
+
+VAT Registered // Is Customer VAT Registered?  ___######_____ att.c_vatreg
+
+Customer Extra Info 1 //  Customer Extra Info   ___######_____ att.c_extra1
