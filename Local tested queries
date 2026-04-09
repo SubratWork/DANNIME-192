@@ -247,7 +247,7 @@ select * from FB_ENT_SPOE_CHECK_TBL   where ClientName='UAE Generic'
 select * from FB_ENT_SPOE_CHECK_TBL_HIST  where ClientName='UAE Generic'
 
 
-
+-- after this add environment product and assesment in danni_environs.xml
 
 --check if in uat its there or not
 begin tran
