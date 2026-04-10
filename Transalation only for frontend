@@ -29,3 +29,18 @@ Contact Telephone //  Daytime Telephone ___######_____ att.c_dayphone
 VAT Registered // Is Customer VAT Registered?  ___######_____ att.c_vatreg
 
 Customer Extra Info 1 //  Customer Extra Info   ___######_____ att.c_extra1
+Formsent Date // 
+ClaimMileage // ___######_____ gap.att.claimmileage //  Claim Mileage (KM)
+Formsent Date //  ___######_____ gap.att.formsentdate // Claim Form Sent Date
+Formreceipt Date //  ___######_____ gap.att.formreceiptdate // Claim Form Recipt Date
+Fincom Name // ___######_____ gap.att.fincomname // Finance Company Name
+Fincom Telephone // ___######_____ gap.att.fincomtelephone //  Finance Co Telephone
+Fincom Contact //  ___######_____ gap.att.fincomcontact // Finance Co Contact
+Fincom Agreement Number /// ___######_____ gap.att.fincomagreementno // Finance Agreement No
+Settlement Amount //  ___######_____ gap.att.settlementamount // Final Settlement Amount
+Primary Insurer Address1 //  ___######_____ gap.att.primaryinsureraddress1 // Primary Insurer Address 1
+ Primary Insurer Address2 // ___######_____ gap.att.primaryinsureraddress2 // Primary Insurer Address 2
+Primary Insurer Address3 // ___######_____ gap.att.primaryinsureraddress3 // Primary Insurer Address 3
+Primary Insurer contact Person // ___######_____ gap.att.primaryinsurercontactperson // Primary Insurer Contact Person
+Primary Insurer Policy Number //  ___######_____ gap.att.primaryinsurerpolicyno // Primary Insurer Policy No
+Primary Insurer Claim Number // ___######_____ gap.att.primaryinsurerclaimno // Primary Insurer Claim No
