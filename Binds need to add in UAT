@@ -76,3 +76,12 @@ claim.attachment.anyother_relavant_info
  att.claimmileage
 errors.max.vehsolddate
 com.firstbase.framework.validation.validators.startdateerror
+
+att.payeeaddress1 
+att.payeeaddress2
+att.payeeaddress3
+att.payeeaddress4
+att.bankaccountholdername
+att.banksortcode
+att.payeeextra1
+att.systempaymentref
