@@ -1,0 +1,36 @@
+select top 10 * from fb_ent_inner_claim_instance_tbl
+select top 10 * from fb_ent_inner_claim_instance_tbl_hist
+
+begin tran
+
+alter table fb_ent_inner_claim_instance_tbl add RequestValuesChange bit;
+alter table fb_ent_inner_claim_instance_tbl add VerifiedValueschange bit;
+
+alter table fb_ent_inner_claim_instance_tbl_hist add RequestValuesChange bit;
+alter table fb_ent_inner_claim_instance_tbl_hist add VerifiedValueschange bit;
+
+rollback
+
+update fb_ent_inner_claim_instance_tbl set RequestValuesChange=0,VerifiedValueschange=0
+where RequestValuesChange is NULL and VerifiedValueschange is NULL
+
+update fb_ent_inner_claim_instance_tbl_hist set RequestValuesChange=0,VerifiedValueschange=0
+where RequestValuesChange is NULL and VerifiedValueschange is NULL
+
+
+alter table fb_ent_inner_claim_instance_tbl alter column Status varchar(60) NOT NULL;
+alter table fb_ent_inner_claim_instance_tbl_hist alter column Status varchar(60) NOT NULL
+
+
+select top 1* from  FB_INNER_CLAIM_INSTANCE_REPAIR_ITEM_TBL;
+select top 1* from  FB_INNER_CLAIM_INSTANCE_REPAIR_ITEM_TBL_HIST;
+ 
+begin tran
+ 
+alter table FB_INNER_CLAIM_INSTANCE_REPAIR_ITEM_TBL add InvoicePriceCheck bit;
+ 
+alter table FB_INNER_CLAIM_INSTANCE_REPAIR_ITEM_TBL_HIST add InvoicePriceCheck bit;
+ 
+rollback
+
+
